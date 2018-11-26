@@ -1,35 +1,140 @@
-.App {
-  text-align: center;
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
+
 body {
-  background: green;
+	padding: 0;
+	margin: 0;
 }
+
+header {
+	background: rgb(42, 144, 179);
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+	padding: 0 1em;
+	color: white;
+}
+
+.page-title {
+	flex: 1 1 25%;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 3 1 50%;
+	align-items: center;
+	padding: 0 1em;
+}
+
+.nav-item {
+	font-size: 1em;
+	padding: 0 1em;
+	font-weight: bold;
+}
+
+#content-container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#jumbotron-container {
+	margin-top: 1em;
+	background: gray;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#jumbotron-header {
+	padding: 0 1em;
+
+}
+
+#jumbotron-description {
+	padding: 0 1em;
+}
+
+#article-list-container {
+
+}
+
+.article-container {
+	width: 100%;
+}
+
+.article-title {
+
+}
+
+.article-content {
+	padding: 0;
+	margin: 0;
+}
+
+.article-reactions {
+	background: orange;
+	color: white;
+	font-weight: bold;
+	display: flex;
+}
+
+.article-reactions-number {
+	padding: 0 0 0 1em;
+}
+
+#content-container {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+	text-align: center;
+}
+
+
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+	animation: App-logo-spin infinite 20s linear;
+	height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }

@@ -5,7 +5,13 @@ class Header extends Component {
 	render() {
 		return (
 			<header>
-				hi
+				<h1 className="page-title">HighOnCoding</h1>
+
+                <nav>
+                    <div className="nav-item">Home</div>
+
+                    <div className="nav-item">Categories</div>
+                </nav>
 			</header>
 		);
 	}
